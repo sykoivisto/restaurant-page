@@ -1,1 +1,1 @@
-alert('im working');
+import './index.css';

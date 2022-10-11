@@ -1,0 +1,113 @@
+:root {
+    --green: rgb(80, 245, 152);
+    --darkgreen: rgb(0, 118, 57);
+}
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600&display=swap');
+
+/* reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/* custom */
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue",sans-serif;
+}
+
+.content {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./pexels-chevanon-photography-312418.jpg');
+    background-size: cover;
+    background-color: rgba(0, 0, 0, .25);
+    background-blend-mode:multiply;
+}
+.nav {
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+}
+.nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+}
+.nav a:hover {
+    scale: 1.02;
+    text-shadow: 1px 1px 2px black;
+    color: var(--green);
+}
+.jumbotron {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 25vh;
+}
+.jumbotron h1 {
+    font-size: 60px;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 600;
+    color: white;
+}
+.jumbotron h3 {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+button {
+    color: white;
+    background-color: var(--darkgreen);
+    border-radius: 5px;
+    margin: 15px;
+    padding: 5px 10px 5px 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+button:hover {
+    scale: 1.02;
+    box-shadow: 0px 1px 2px rgb(55, 55, 55);
+    cursor: pointer;
+}

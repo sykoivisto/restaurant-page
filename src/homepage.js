@@ -1,26 +1,3 @@
-const createNav = () => {
-    const nav = document.createElement('nav');
-    nav.classList.add('nav');
-
-    const menu = document.createElement('a');
-    menu.innerText = 'Menu';
-    menu.href = '#';
-
-    const giftCards = document.createElement('a');
-    giftCards.innerText = 'Gift Cards';
-    giftCards.href = '#'
-
-    const findUs = document.createElement('a');
-    findUs.innerText = 'Find Us';
-    findUs.href = '#';
-
-    nav.appendChild(menu);
-    nav.appendChild(giftCards);
-    nav.appendChild(findUs);
-
-    return nav;
-}
-
 const createJumbotron = () => {
     const jumbotron = document.createElement('div');
     jumbotron.classList.add('jumbotron');
@@ -44,7 +21,6 @@ const createJumbotron = () => {
 const renderContent = () => {
     const content = document.querySelector('.content');
 
-    content.appendChild(createNav());
     content.appendChild(createJumbotron());
 }
 

@@ -5,6 +5,6 @@ import { renderHomepageContent } from './js/homepage';
 import { renderMenuContent } from './js/menu';
 import { renderGiftCardContent } from './js/gift-cards';
 
-// renderHomepageContent();
+renderHomepageContent();
 // renderMenuContent();
 // renderGiftCardContent();

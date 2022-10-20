@@ -18,12 +18,12 @@ const createJumbotron = () => {
     return jumbotron;
 }
 
-const renderContent = () => {
+const renderHomepageContent = () => {
     const content = document.querySelector('.content');
 
     content.appendChild(createJumbotron());
 }
 
 export {
-    renderContent
+    renderHomepageContent
 }

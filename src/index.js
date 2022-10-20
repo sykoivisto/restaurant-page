@@ -1,5 +1,6 @@
 import './index.css';
-import { renderContent } from './homepage'
+import { renderHomepageContent } from './homepage'
+import { renderMenuContent } from './menu'
 
-
-//renderContent();
+// renderHomepageContent();
+// renderMenuContent();

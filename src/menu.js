@@ -1,8 +1,43 @@
-const menu = [
+const menuArr = [
     {
         item: 'Cappuccino',
         desc: 'One part espresso, one part milk, and one part foam',
         price: '3.50'
+    },
+    {
+        item: 'Latte',
+        desc: 'Espresso and steamed milk with a touch of foam',
+        price: '4.25'
+    },
+    {
+        item: 'Mocha',
+        desc: 'Espresso, steamed milk, and chocolate',
+        price: '4.50'
+    },
+    {
+        item: 'Americano',
+        desc: 'With hot water',
+        price: '2.50'
+    },
+    {
+        item: 'Flat White',
+        desc: 'With steamed milk',
+        price: '2.50'
+    },
+    {
+        item: 'Cafe Breve',
+        desc: 'With half & half',
+        price: '2.50'
+    },
+    {
+        item: 'Con Panna',
+        desc: 'With whipped cream',
+        price: '3.25'
+    },
+    {
+        item: 'Macchiato',
+        desc: 'Espresso with a dollop of foam',
+        price: '1.50'
     }
 ]
 const createMenu = () => {
@@ -14,7 +49,8 @@ const createMenu = () => {
     
     const ul = document.createElement('ul');
 
-    for (let item of menu) {
+    for (let item of menuArr) {
+        console.log(item)
         const listItem = document.createElement('li');
 
         const nameAndDesc = document.createElement('div');
@@ -45,8 +81,12 @@ const createMenu = () => {
     return menu;
 }
 
-const renderContent = () => {
+const renderMenuContent = () => {
     const content = document.querySelector('.content');
 
     content.appendChild(createMenu());
+}
+
+export {
+    renderMenuContent
 }

@@ -1,0 +1,11 @@
+.gift-cards {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+ .gift-cards h1 {
+    font-size: 40px;
+    font-family: 'Dancing Script', cursive;
+ }

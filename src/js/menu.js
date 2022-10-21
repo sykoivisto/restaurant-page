@@ -50,7 +50,6 @@ const createMenu = () => {
     const ul = document.createElement('ul');
 
     for (let item of menuArr) {
-        console.log(item)
         const listItem = document.createElement('li');
 
         const nameAndDesc = document.createElement('div');

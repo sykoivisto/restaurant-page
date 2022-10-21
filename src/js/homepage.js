@@ -9,6 +9,7 @@ const createJumbotron = () => {
     subHeader.innerText = 'Start your day right';
 
     const menuButton = document.createElement('button');
+    menuButton.classList.add('menu-button')
     menuButton.innerText = 'View Our Menu';
 
     jumbotron.appendChild(header);

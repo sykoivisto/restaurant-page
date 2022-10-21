@@ -56,10 +56,9 @@ table {
 
 body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue",sans-serif;
-    width: 100vw;
     height: 100vh;
     background-image: url('../img/2954.jpg ');
-    background-size: 30%;
+    background-size: 500px;
     display: flex;
     flex-direction: column;
     grid-template-rows: 50px 1fr 50px;
@@ -80,15 +79,16 @@ footer a:last-of-type {
 .content {
     border-radius: 20px;
     background-color: var(--light);
-    height: 100%;
+    flex: 1;
 }
 .nav {
-    padding: 20px;
+    padding: 20px 0 0 20px;
     display: flex;
     gap: 20px;
     background-color: var(--light);
 }
 .nav a {
+    padding-bottom: 20px;
     text-decoration: none;
     color: black;
     font-size: 22px;
@@ -97,21 +97,24 @@ footer a:last-of-type {
     scale: 1.02;
     color: var(--green);
 }
+.nav-active {
+    border-bottom: 5px solid var(--green);
+}
 .jumbotron {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 8px;
-    margin-top: 25vh;
+    margin-top: 25%;
 }
-.jumbotron h1 {
+h1 {
     font-size: 60px;
     font-family: 'Dancing Script', cursive;
     font-weight: 600;
     color: white;
     text-shadow: 1px 1px 2px black;
 }
-.jumbotron h3 {
+h3 {
     font-size: 24px;
     font-weight: bold;
     color: white;

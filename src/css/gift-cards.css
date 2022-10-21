@@ -3,9 +3,12 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 50px;
+    margin-top: 25%;
 }
  .gift-cards h1 {
     font-size: 40px;
     font-family: 'Dancing Script', cursive;
+ }
+ .gift-cards .buttons {
+    margin-top: 30px;
  }

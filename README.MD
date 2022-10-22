@@ -1,5 +1,7 @@
 # Restaurant Page
 
+##[Live DEMO](https://sykoivisto.github.io/restaurant-page/)
+
 ## Description
 
 This is a simple website for a coffee shop.

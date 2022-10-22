@@ -1,7 +1,13 @@
+import logoSrc from '../img/coffeecup.png';
+
 const createJumbotron = () => {
     const jumbotron = document.createElement('div');
     jumbotron.classList.add('jumbotron');
 
+    const logo = new Image();
+    logo.src = logoSrc;
+    jumbotron.appendChild(logo);
+    
     const header = document.createElement('h1');
     header.innerText = 'Morning Coffee'
 

@@ -53,6 +53,9 @@ table {
 
 
 /* custom */
+body * {
+    box-sizing: border-box;
+}
 
 body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue",sans-serif;
@@ -82,16 +85,24 @@ footer a:last-of-type {
     flex: 1;
 }
 .nav {
-    padding: 20px 0 0 20px;
+    padding: 0 0 0 20px;
     display: flex;
     gap: 20px;
     background-color: var(--light);
 }
-.nav a {
-    padding-bottom: 20px;
+#logo {
+    align-self: center;
+    cursor: pointer;
+}
+#logo img {
+    height: 50px;
+}
+.nav a:not(:first-child) {
+    padding: 20px 0 20px 0;
     text-decoration: none;
     color: black;
     font-size: 22px;
+    height: 62px;
 }
 .nav a:hover {
     scale: 1.02;
@@ -105,7 +116,10 @@ footer a:last-of-type {
     flex-direction: column;
     align-items: center;
     gap: 8px;
-    margin-top: 25%;
+    margin-top: 15%;
+}
+img {
+    height: 150px;
 }
 h1 {
     font-size: 60px;

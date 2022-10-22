@@ -1,6 +1,6 @@
 # Restaurant Page
 
-##[Live DEMO](https://sykoivisto.github.io/restaurant-page/)
+## [Live DEMO](https://sykoivisto.github.io/restaurant-page/)
 
 ## Description
 
